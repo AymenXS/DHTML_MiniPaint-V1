@@ -47,6 +47,7 @@ colorBtns.forEach((button) => {
 });
 
 colorPicker.addEventListener("input", changeColorPicker);
+penWidth.addEventListener("input", changeWidth);
 
 function changeColor() {
   drawColor = this.style.background;
@@ -54,4 +55,8 @@ function changeColor() {
 
 function changeColorPicker() {
   drawColor = this.value;
+}
+
+function changeWidth() {
+  drawWidth = this.value;
 }
