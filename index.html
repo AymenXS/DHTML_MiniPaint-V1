@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mini Paint - V2</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="script.js" defer></script>
   </head>
   <body>
     <div class="field">
       <canvas id="canvas"></canvas>
       <div class="tools">
-        <button class="button">Undo</button>
-        <button class="button">Clear</button>
+        <button id="undoButton" class="button">Undo</button>
+        <button id="clearButton" class="button">Clear</button>
         <div class="colorField"></div>
         <div class="colorField"></div>
         <div class="colorField"></div>
