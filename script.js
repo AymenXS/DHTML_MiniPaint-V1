@@ -14,7 +14,7 @@ context.fillStyle = startBackgroundColor;
 context.fillRect(0, 0, canvas.width, canvas.height);
 
 let drawColor = "black";
-let drawWidth = "2";
+let drawWidth = penWidth.value;
 let isDrawing = false;
 
 let restoreArray = [];
@@ -47,7 +47,6 @@ function draw(event) {
     context.lineWidth = drawWidth;
     context.stroke();
   }
-  event.preventDefault();
 }
 
 function stop(event) {
