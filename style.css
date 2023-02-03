@@ -24,7 +24,7 @@ canvas {
   margin-top: 15px;
 }
 
-.tools .colorField {
+.tools .color-field {
   min-height: 40px;
   min-width: 40px;
   cursor: pointer;
@@ -49,29 +49,29 @@ canvas {
   margin: 0 15px;
 }
 
-.colorPicker {
+.color-picker {
   align-self: center;
   margin: 0 15px;
   height: 50px;
 }
 
-.penWidth {
+.pen-width {
   align-self: center;
   margin: 0 15px;
 }
 
-.colorField:nth-of-type(1) {
+.color-field:nth-of-type(1) {
   background: red;
 }
 
-.colorField:nth-of-type(2) {
+.color-field:nth-of-type(2) {
   background: blue;
 }
 
-.colorField:nth-of-type(3) {
+.color-field:nth-of-type(3) {
   background: green;
 }
 
-.colorField:nth-of-type(4) {
+.color-field:nth-of-type(4) {
   background: yellow;
 }
