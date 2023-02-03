@@ -1,9 +1,9 @@
 const canvas = document.getElementById("canvas"),
-  colorBtns = document.querySelectorAll(".colorField"),
-  colorPicker = document.querySelector(".colorPicker"),
-  penWidth = document.querySelector(".penWidth"),
-  clearButton = document.getElementById("clearButton"),
-  undoButton = document.getElementById("undoButton");
+  colorBtns = document.querySelectorAll(".color-field"),
+  colorPicker = document.querySelector(".color-picker"),
+  penWidth = document.querySelector(".pen-width"),
+  clearButton = document.getElementById("clear-button"),
+  undoButton = document.getElementById("undo-button");
 
 canvas.width = window.innerWidth - 60;
 canvas.height = 400;
